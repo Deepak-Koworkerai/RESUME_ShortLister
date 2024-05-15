@@ -22,7 +22,7 @@ api_key = os.getenv("GOOGLE_API_KEY")
 llm = ChatGoogleGenerativeAI(model="gemini-pro",
                              verbose=True,
                              temperature=0.5,
-                             google_api_key= 'AIzaSyDTCBqi2PBZs6NeU3ZWBhPJJuklQfiMVOs'
+                             google_api_key= '' # set up the api key
 )
 
 class Agents():
